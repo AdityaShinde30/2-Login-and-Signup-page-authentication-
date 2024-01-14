@@ -3,38 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nexuslogin&Signup</title>
+    <title>Nexuslogin&SignupAuthientication</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 </head>
 <body>
-    <div class ="structure">
-        <form action="">
-          <h4><a href="index3.html">back</a></h4>
-          <h1 class="heading">Login</h1>
-            <div class="imagebox">
-              <img src="images.jpeg" alt="Avatar" class="avatar">
-            </div>
-          
-            <div class="container">
-              <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required>
-          
-              <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Rooms</a>
+        <a href="#">Contact</a>
+        <a href="index2.html">login</a>
+    </nav>
 
-              <label>
-                <input type="checkbox" name="remember"> Remember me
-              </label>
-              <button type="submit">Submit</button>
-            </div>
-          
-            <div class="container2" style="background-color:#f1f1f1">
-              <button type="button" class="cancelbtn">Cancle</button>
-              <span class="links">Forgot <a class="hover"href="#">password?</a> OR <a class="hover" href="index2.html"><b>Signup</b></a></span>
-            </div>
-          </form>
+    <div class="hero">
+        <h1>Hotel Taj </h1>
+        <p>Welcome to a luxurious stay</p>
+    </div>
+
+    <div class="rooms">
+        <div class="room">
+            <h2>Deluxe Room</h2>
+            <p>Spacious and comfortable room with a beautiful view.</p>
+            <img src="view.jpeg" alt="Room 2">
+            <img src="view2.jpeg" alt="Room 2">
+            <img src="view3.jpeg" alt="Room 2">
+        </div>
+
+        <div class="room">
+            <h2>Executive Suite</h2>
+            <p>Luxurious suite with modern amenities for a perfect stay.</p>
+            <img src="cupboard.jpeg" alt="Room 2">
+            <img src="cupboard2.jpeg" alt="Room 2">
+            <img src="cupboard3.jpeg" alt="Room 2">
+
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
     </div>
 </body>
 </html>
