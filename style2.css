@@ -11,6 +11,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav {
@@ -37,7 +38,7 @@ nav a {
 
 .hero h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-top: 200px;
 }
 
 .rooms {
@@ -68,7 +69,7 @@ label {
 
 input,
 textarea {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
