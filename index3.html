@@ -10,28 +10,30 @@
 </head>
 <body>
     <div class ="structure2">
-        <form action="">
+        <form action="" id="hotelLogin">
             <h4><a href="index.html">back</a></h4>
             <h1 class ="heading">Sign up</h1>
             <div class="imagebox">
               <img src="images.jpeg" alt="Avatar" class="avatar">
             </div>
-          
+            
+
+            <div class="alert">Your values are save</div>
             <div class="container">
               <label for="uname"><b>Full Name</b></label>
-              <input type="text" placeholder="Enter your full name" name="uname" required>
+              <input type="text" placeholder="Enter your full name" id = "fname" name="uname" required>
 
               <label for="uname"><b>Username</b></label>
-              <input type="text" placeholder="Enter username" name="uname" required>
+              <input type="text" placeholder="Enter username" id="lname" name="uname" required>
 
               <label for="uname"><b>Email</b></label>
-              <input type="email" placeholder="Enter your email" name="uname" required>
+              <input type="email" placeholder="Enter your email" id="email" name="uname" required>
 
               <label for="uname"><b>Password</b></label>
-              <input type="password" placeholder="Enter your password" name="uname" required>
+              <input type="password" placeholder="Enter your password" id="password" name="uname" required>
               
               <label for="psw"><b>Confirm Password</b></label>
-              <input type="password" placeholder="Confirm your password" name="psw" required>
+              <input type="password" placeholder="Confirm your password" id="confirm_password" name="psw" required>
           
               <button type="submit">Submit</button>
               <!-- <br><br> -->
@@ -49,5 +51,8 @@
             </div>
           </form>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <!-- <script src="index.html"></script> -->
+    <script src="login.js"></script>
 </body>
 </html>

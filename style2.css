@@ -117,3 +117,14 @@
       width: 100%;
     }
   }
+
+  .alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-size: 900;
+    display: none;
+  }
